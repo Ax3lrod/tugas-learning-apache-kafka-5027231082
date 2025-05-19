@@ -62,3 +62,9 @@ pip install kafka-python
      ```powershell
      python stream_monitor.py
      ```
+
+## Dokumentasi
+
+![Screenshot 2025-05-19 152518](https://github.com/user-attachments/assets/38b7629f-f437-404f-9178-ba7cf5d69186)
+![image](https://github.com/user-attachments/assets/f10926da-3b23-46c7-bacb-d5814ee72522)
+
