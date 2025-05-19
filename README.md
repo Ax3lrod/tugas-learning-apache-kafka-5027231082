@@ -1,9 +1,5 @@
 # Langkah-Langkah Pengerjaan
 
----
-
-### 1. Menjalankan Kafka dengan Docker dan Membuat Topik
-
 1. **Jalankan Kafka Container**:
 
    ```bash
@@ -37,33 +33,13 @@
      --create --topic sensor-kelembaban-gudang \
      --bootstrap-server :9092 --replication-factor 1 --partitions 3
    ```
-
----
-
-### 2. Simulasi Data Sensor: Kafka Producers
-
-Buat dua file Python untuk masing-masing sensor. Install `kafka-python` terlebih dahulu:
+4. **Install Dependencies**
 
 ```bash
 pip install kafka-python
 ```
 
-#### a. Producer Suhu (`producer_suhu.py`)
-
-#### b. Producer Kelembaban (`producer_kelembaban.py`)
-
-
-### 3. Konsumsi & Olah Data dengan Kafka Consumer
-
-Install `kafka-python`
-```bash
-pip install kafka-python
-```
----
-
-### 4. Menjalankan Pipeline pada Windows PowerShell
-
-1. **Jalankan Tiap Proses di Tab/Window Terpisah**:
+5. **Jalankan Tiap Proses di Tab/Window Terpisah**:
 
    * Buka beberapa PowerShell windows.
    * Di window 1, mulai kontainer Kafka:
